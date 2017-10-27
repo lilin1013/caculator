@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "mocha -r babel-register -r babel-polyfill ./calculator.test.js",
+    "test:watch": "yarn run test -- --watch"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
